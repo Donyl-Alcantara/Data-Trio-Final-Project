@@ -1,0 +1,14 @@
+{
+  "crude_pca_block": [
+    "brent_log_ret_lag1",
+    "brent_log_ret_lag2",
+    "brent_log_ret_lag3",
+    "brent_log_ret_lag4",
+    "crack_spread_lag1",
+    "crack_spread_lag2",
+    "crack_spread_lag3",
+    "crack_spread_lag4"
+  ],
+  "n_components_95pct": 5,
+  "note": "Re-fit StandardScaler + PCA inside each CV fold in NB04. Never on test data."
+}
