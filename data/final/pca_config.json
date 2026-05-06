@@ -7,8 +7,46 @@
     "crack_spread_lag1",
     "crack_spread_lag2",
     "crack_spread_lag3",
-    "crack_spread_lag4"
+    "crack_spread_lag4",
+    "brent_php_log_ret_lag1",
+    "brent_php_log_ret_lag2",
+    "brent_php_log_ret_lag3",
+    "brent_php_log_ret_lag4"
   ],
-  "n_components_95pct": 5,
-  "note": "Re-fit StandardScaler + PCA inside each CV fold in NB04. Never on test data."
+  "vol_pca_block": [
+    "ovx_mean_lag1",
+    "ovx_mean_lag2",
+    "ovx_mean_lag3",
+    "ovx_mean_lag4",
+    "vix_mean_lag1",
+    "vix_mean_lag2",
+    "vix_mean_lag3",
+    "vix_mean_lag4",
+    "markov_prob_highvol_lag1",
+    "markov_prob_highvol_lag2",
+    "markov_prob_highvol_lag3",
+    "markov_prob_highvol_lag4"
+  ],
+  "gpr_pca_block": [
+    "GPR_AI_lag1",
+    "GPR_AI_lag2",
+    "GPR_AI_lag3",
+    "GPR_AI_lag4",
+    "GPR_NONOIL_lag1",
+    "GPR_NONOIL_lag2",
+    "GPR_NONOIL_lag3",
+    "GPR_NONOIL_lag4",
+    "GPR_OIL_MiddleEast_lag1",
+    "GPR_OIL_MiddleEast_lag2",
+    "GPR_OIL_MiddleEast_lag3",
+    "GPR_OIL_MiddleEast_lag4",
+    "GPR_OIL_Russia_lag1",
+    "GPR_OIL_Russia_lag2",
+    "GPR_OIL_Russia_lag3",
+    "GPR_OIL_Russia_lag4"
+  ],
+  "n_crude_95pct": 5,
+  "n_vol_95pct": 6,
+  "n_gpr_95pct": 7,
+  "warning": "Diagnostic reference only. Re-fit StandardScaler + PCA on training data inside each CV fold in NB04."
 }
